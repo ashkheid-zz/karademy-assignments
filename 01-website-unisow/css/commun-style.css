@@ -450,70 +450,72 @@ footer .container > * + * {margin-top:30px}
 /*══════════════════════════════════════════╗
 ║               @media Tablet               ║
 ╚══════════════════════════════════════════*/
-@media (min-width: 426px) {
-  aside {
-    /* display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    outline: 5px dashed #80008088; */
-    display: flex;
-    flex-flow: column nowrap;
-  }
-
-  main .container {
-    /* display: grid;
-    grid-template-columns: 1fr 1fr; */
-  }
-
-  section.hero {
-    max-height: 250px;
-  }
-
-  .hero, .hero .container {height: 250px;}
-
-  h1.hero__title {
-    font-size: 2.625rem;
-    font-weight: 600;
-  }
-
-  ul.hero__breadcrumb li {
-    font-size: 1.2rem;
-  }
-
-  .container {
-    padding-inline: 5vw;
-  }
-
-  main .cards .card {
-    margin: 0 0 20px 10px;
-    flex-grow: 1;
-  }
-
-  main aside > *, .donations.card {
-      margin: 0 10px 20px 0;
-  }
-
-  main section.cards {
-    display: flex;
-    flex-flow: row wrap;
-  }
+@media (min-width: 490px) {
+  /*---------- General ----------*/
+    .container {
+      padding-inline: 5vw;
+    }
   
-  main .container {
+  /*------ Utility Classes ------*/
+  
+  
+  
+  /*---------- header -----------*/
+  
+  
+  
+  /*----------- hero ------------*/
+    .hero,
+    .hero .container {
+      height: 250px;
+    }
+  
+    h1.hero__title {
+      font-size: 2.625rem;
+      font-weight: 600;
+    }
+  
+    ul.hero__breadcrumb li {
+      font-size: 1.2rem;
+    }
+  
+  /*----------- aside -----------*/
+    main aside {
       display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: flex-start;
+    }
+
+    main aside > * {
+      width: 50%;
+    }
+
+  
+  
+  /*----- aside > trendings -----*/
+    aside .trendings {
+      position: relative;
+      top: 80px;
+    }
+  
+  
+  /*----- aside > donations -----*/
+    aside .donations {
+      min-width: 250px;
+      margin-left: 20px;
+    }
+  
+  
+  /*----------- main ------------*/
+  
+  
+  
+  /*------- main > cards --------*/
+  
+  
+  
+  /*---------- footer -----------*/
+  
+  
   }
-
-  main .container > * > * {
-  }
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
