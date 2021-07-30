@@ -440,21 +440,6 @@ header nav a.btn--primary::after {
   display: none;
 }
 
-header nav a::after {
-  content: "";
-  position: absolute;
-  display: inline-block;
-  width: 6px;
-  height: 6px;
-  border-radius: 6px;
-  left: 0;
-  right: 0;
-  opacity: 0;
-  margin: 30px auto 0;
-  background-color: var(--clr-accent);
-  transition: all 200ms ease-in-out;
-}
-
 header nav a:hover::after {
   opacity: 1;
   margin: 25px auto 0;
