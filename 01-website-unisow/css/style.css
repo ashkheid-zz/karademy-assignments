@@ -784,6 +784,10 @@ main {
   margin-top: 10vmax;
 }
 
+main .row {
+  background: url(./image/content-bg-shape.svg);
+}
+
 main img {
   width: 100%;
 }
