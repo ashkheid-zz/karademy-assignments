@@ -65,6 +65,12 @@ a:hover {color:var(--clr-accent-hover)}
 .a\:active::after {
   opacity: 1;
   margin: 22px auto 0;
+  color: var(--clr-accent);
+}
+
+.a\:active{
+  color: var(--clr-accent);
+  font-weight: 600;
 }
 
 /*══════════════════════════════════════════╗
