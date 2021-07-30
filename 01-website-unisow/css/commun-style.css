@@ -120,7 +120,6 @@ header .container {
   width: 50px;
   height: 40px;
   border-radius: 5px;
-  border: 2px solid #D5981E;
   box-shadow: none; /* overriding .btn--primary box-shadow*/
   cursor: pointer;
 }
