@@ -730,4 +730,13 @@ footer .container > * + * {margin-top:30px}
   aside .donations {
     top: 40px;
   }
+
+  main section .card:nth-child(odd) {
+    margin-inline: 0;
+  }
+
+  main section .card:nth-child(2),
+  main section .card:nth-child(5) {
+    margin-inline: 1.8654335761vw;
+  }
 }
