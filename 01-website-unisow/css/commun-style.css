@@ -148,7 +148,7 @@ header .container {
 
 .header__nav-list {
   display: none;
-  /* display: block; */
+  z-index: 999;
   width: 100%;
   position: absolute;
   left: 0;
