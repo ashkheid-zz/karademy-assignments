@@ -89,6 +89,8 @@ a:hover {color:var(--clr-accent-hover)}
 /*══════════════════════════════════════════╗
 ║              Utility Classes              ║
 ╚══════════════════════════════════════════*/
+
+
 .btn--primary {
   border-radius: 8px;
   padding: 10px 20px;
@@ -150,7 +152,7 @@ header .container {
   width: 100%;
   position: absolute;
   left: 0;
-  top: 13%;
+  top: 11%;
   padding-bottom: 1.25em;
   opacity: 0.9;
 }
@@ -460,6 +462,10 @@ footer .container > * + * {margin-top:30px}
 /*══════════════════════════════════════════╗
 ║               @media Tablet               ║
 ╚══════════════════════════════════════════*/
+.click-menu {
+  display: block;
+}
+
 @media (min-width: 490px) {
   /*---------- General ----------*/
     .container {

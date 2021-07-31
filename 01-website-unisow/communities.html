@@ -55,8 +55,8 @@
         <img src="./image/logo/main-logo-unisow.svg" alt="" class="header__logo">
 
         <nav class="header__nav">
-          <div class="header__nav-btn btn--primary"><span></span></div>
-          <ul class="header__nav-list">
+          <div class="header__nav-btn btn--primary" onclick="myFunction()"><span></span></div>
+          <ul id="nav-list" class="header__nav-list">
             <li><a href="#" class="a:active">Communities</a></li>
             <li><a href="#">Campaigns</a></li>
             <li><a href="#">Milestones</a></li>
@@ -388,6 +388,25 @@
 
       </div> <!-- END .container -->
     </footer>
+
+
+    <script>
+      function myFunction() {
+        let x = document.getElementById("nav-list");
+        
+        if (x.className === "header__nav-list") {
+          x.className += " click-menu";
+        } else {
+          x.className = "header__nav-list";
+        }
+      }
+
+      let vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
+
+      if (vw > 741) {
+        document.getElementById("nav-list").style.display = "block";
+      }
+    </script>
   </body>
 
 </html>
