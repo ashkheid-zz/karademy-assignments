@@ -785,7 +785,7 @@ main {
 }
 
 main .row {
-  background: url(./image/content-bg-shape.svg);
+  background: url(../image/content-bg-shape.svg);
 }
 
 main img {
